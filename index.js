@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cors());
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://alumni-job-form.vercel.app',
     methods: 'GET,POST,PUT,DELETE',
     credentials: true, 
 }));
